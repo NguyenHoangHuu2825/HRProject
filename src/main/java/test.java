@@ -19,7 +19,7 @@ public class test {
         // Tạo phiên làm việc (session) với cơ sở dữ liệu
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction transaction = null;
-
+        
         try {
             // Bắt đầu một transaction
             transaction = session.beginTransaction();
