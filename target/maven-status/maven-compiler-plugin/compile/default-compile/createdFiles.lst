@@ -1,9 +1,14 @@
 model\main.class
 view\component\Home_Component\Home_Component.class
 controller\main.class
+view\component\EmployeeAndDepartmentInfo\testFrame$1.class
+view\component\EmployeeAndDepartmentInfo\testFrame.class
 view\main.class
+view\component\EmployeeAndDepartmentInfo\EmployeeInfo_Component.class
+view\component\EmployeeAndDepartmentInfo\EmployeeAndDepartmentInfo.class
 util\HibernateUtil.class
 controller\Function\Function.class
+view\component\EmployeeAndDepartmentInfo\ManagerInfo_Component.class
 User.class
 view\form\Home\Home_Form.class
 test.class

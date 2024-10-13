@@ -42,9 +42,10 @@ public class Home_Component extends javax.swing.JPanel {
 
         setMaximumSize(new java.awt.Dimension(300, 150));
 
-        funcName.setFont(new java.awt.Font("Consolas", 0, 14)); // NOI18N
-        funcName.setText("Nguyen Tran Thanh Duy");
+        funcName.setFont(new java.awt.Font("Consolas", 0, 15)); // NOI18N
+        funcName.setText("Name");
 
+        funcIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         funcIcon.setText("icon");
         funcIcon.setSize(25, 25);
         funcIcon.setText("");
@@ -64,19 +65,19 @@ public class Home_Component extends javax.swing.JPanel {
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addGap(22, 22, 22)
-                .addComponent(funcName, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(funcName)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(7, Short.MAX_VALUE)
+                .addContainerGap(10, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(funcId)
                     .addComponent(funcIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(funcName, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50))
+                .addComponent(funcName, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(65, 65, 65))
         );
     }// </editor-fold>//GEN-END:initComponents
     
