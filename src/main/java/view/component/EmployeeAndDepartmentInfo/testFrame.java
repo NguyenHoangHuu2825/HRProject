@@ -20,7 +20,7 @@ public class testFrame extends javax.swing.JFrame {
     public testFrame() {
         initComponents();
         this.getContentPane().setLayout(new BorderLayout());
-        this.getContentPane().add(new EmployeeInfo_Component(), BorderLayout.NORTH);
+        this.getContentPane().add(new EmployeeInfo_Component());
     }
 
     /**

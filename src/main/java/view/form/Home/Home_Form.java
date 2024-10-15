@@ -80,7 +80,6 @@ public class Home_Form extends javax.swing.JFrame {
         backBtn.setToolTipText("");
         backBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         backBtn.setMaximumSize(new java.awt.Dimension(25, 25));
-        backBtn.setMinimumSize(new java.awt.Dimension(0, 0));
         backBtn.setPreferredSize(new java.awt.Dimension(25, 25));
         backBtn.setSize(15,15);
 
@@ -224,7 +223,7 @@ public class Home_Form extends javax.swing.JFrame {
 
     private void initCustomComponents() {
         ImageIcon imageIcon = new ImageIcon(getClass().getResource("/img/bell.png"));
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 10; i++) {
             contentPanel.add(new Home_Component("1", "Nguyen Tran Thanh Duy Oc Cac", new Color(150, 150, 150), imageIcon));
         }
     }

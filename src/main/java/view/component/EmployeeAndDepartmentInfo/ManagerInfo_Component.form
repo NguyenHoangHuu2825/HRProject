@@ -68,9 +68,9 @@
                           <Component id="companyName" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="phoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="email" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="phoneNumber" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Component id="logo" min="-2" pref="50" max="-2" attributes="0"/>
@@ -124,9 +124,6 @@
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[100, 100]"/>
-        </Property>
-        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-          <Dimension value="[0, 0]"/>
         </Property>
       </Properties>
       <AuxValues>

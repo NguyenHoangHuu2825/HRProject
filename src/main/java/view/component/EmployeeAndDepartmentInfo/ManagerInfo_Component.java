@@ -63,7 +63,6 @@ public class ManagerInfo_Component extends javax.swing.JPanel {
 
         logo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         logo.setMaximumSize(new java.awt.Dimension(100, 100));
-        logo.setMinimumSize(new java.awt.Dimension(0, 0));
         logo.setSize(35, 35);
 
         name.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -121,9 +120,9 @@ public class ManagerInfo_Component extends javax.swing.JPanel {
                             .addComponent(position)
                             .addComponent(companyName))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(phoneNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(email)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(email)
+                            .addComponent(phoneNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(logo, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(total)

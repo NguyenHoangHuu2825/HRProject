@@ -6,23 +6,20 @@ package view.component.EmployeeAndDepartmentInfo;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
 import javax.swing.ImageIcon;
 
 /**
  *
  * @author LENOVO
  */
-public class EmployeeInfo_Component extends javax.swing.JPanel {
+public class PersonalInfo_Component extends javax.swing.JPanel {
 
     /**
-     * Creates new form EmployeeInfo_Component
+     * Creates new form PersonalInfo_Component
      */
-    public EmployeeInfo_Component() {
+    public PersonalInfo_Component() {
         initComponents();
         setLayout();
-        addComponent();
     }
 
     /**
@@ -42,29 +39,17 @@ public class EmployeeInfo_Component extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 547, Short.MAX_VALUE)
+            .addGap(0, 473, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
-
-    private void initDisplay() {
-    }
-
-    private void setLayout() {
-        this.setLayout(new BorderLayout());
-    }
-
-    private void addComponent() {
-        String name = "Lam Quoc Nhan";
-        String position = "Tong Giam Doc |";
-        String companyName = "VNG";
-        String phoneNumber = "(+84) 9682705533 |";
-        String email = "quocnhan56@gmail.com";
-        ImageIcon imageIcon = new ImageIcon(getClass().getResource("/img/logo1.png"));
-        this.add(new ManagerInfo_Component(name, position, companyName, phoneNumber, email, imageIcon), BorderLayout.NORTH);
-        this.add(new PersonalInfo_Component(), BorderLayout.CENTER);
-    }
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
+
+    private void setLayout() {
+        this.setLayout(new BorderLayout());
+        this.add(new TitleEmployeeBasicInfo_Component(), BorderLayout.NORTH);
+        this.add(new PersonalBasicInfo_Container(), BorderLayout.CENTER);
+    }
 }
