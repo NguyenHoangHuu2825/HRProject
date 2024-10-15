@@ -4,6 +4,10 @@
  */
 package view.component.EmployeeAndDepartmentInfo;
 
+import controller.Function.Function;
+import java.awt.Dimension;
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author LENOVO
@@ -13,9 +17,13 @@ public class Contact_Component extends javax.swing.JPanel {
     /**
      * Creates new form Contact_Component
      */
-    public Contact_Component() {
+    public Contact_Component(String email, String phone, String twitter) {
         initComponents();
         addIcon();
+        this.setPreferredSize(new Dimension(210, 100));
+        this.email.setText(email);
+        this.phone.setText(phone);
+        this.twitter.setText(twitter);
     }
 
     /**
@@ -28,25 +36,37 @@ public class Contact_Component extends javax.swing.JPanel {
     private void initComponents() {
 
         emailIcon = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        phoneIcon = new javax.swing.JLabel();
+        twitterIcon = new javax.swing.JLabel();
+        email = new javax.swing.JLabel();
+        phone = new javax.swing.JLabel();
+        twitter = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
 
-        emailIcon.setText("a");
-        emailIcon.setMaximumSize(new java.awt.Dimension(15, 15));
+        emailIcon.setMaximumSize(new java.awt.Dimension(50, 50));
         emailIcon.setMinimumSize(new java.awt.Dimension(1, 1));
-        emailIcon.setPreferredSize(new java.awt.Dimension(16, 16));
+        emailIcon.setPreferredSize(new java.awt.Dimension(18, 18));
+        emailIcon.setSize(18, 18);
 
-        jLabel2.setText("a");
-        jLabel2.setMaximumSize(new java.awt.Dimension(15, 15));
-        jLabel2.setMinimumSize(new java.awt.Dimension(1, 1));
-        jLabel2.setPreferredSize(new java.awt.Dimension(16, 16));
+        phoneIcon.setMaximumSize(new java.awt.Dimension(50, 50));
+        phoneIcon.setMinimumSize(new java.awt.Dimension(1, 1));
+        phoneIcon.setPreferredSize(new java.awt.Dimension(18, 18));
+        phoneIcon.setSize(16, 16);
 
-        jLabel3.setText("a");
-        jLabel3.setMaximumSize(new java.awt.Dimension(15, 15));
-        jLabel3.setMinimumSize(new java.awt.Dimension(1, 1));
-        jLabel3.setPreferredSize(new java.awt.Dimension(16, 16));
+        twitterIcon.setMaximumSize(new java.awt.Dimension(50, 50));
+        twitterIcon.setMinimumSize(new java.awt.Dimension(1, 1));
+        twitterIcon.setPreferredSize(new java.awt.Dimension(18, 18));
+        twitterIcon.setSize(16, 16);
+
+        email.setForeground(new java.awt.Color(160, 160, 160));
+        email.setText("quocnhan56@gmail.com");
+
+        phone.setForeground(new java.awt.Color(160, 160, 160));
+        phone.setText("0968270553");
+
+        twitter.setForeground(new java.awt.Color(160, 160, 160));
+        twitter.setText("quocnhan56@gmail.com");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -54,33 +74,54 @@ public class Contact_Component extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(twitterIcon, javax.swing.GroupLayout.DEFAULT_SIZE, 26, Short.MAX_VALUE)
+                    .addComponent(phoneIcon, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(emailIcon, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(emailIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(189, Short.MAX_VALUE))
+                    .addComponent(email)
+                    .addComponent(phone)
+                    .addComponent(twitter))
+                .addContainerGap(39, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(emailIcon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(22, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(email, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(emailIcon, javax.swing.GroupLayout.DEFAULT_SIZE, 24, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(phone, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(phoneIcon, javax.swing.GroupLayout.DEFAULT_SIZE, 24, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(twitterIcon, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
+                    .addComponent(twitter, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel email;
     private javax.swing.JLabel emailIcon;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel phone;
+    private javax.swing.JLabel phoneIcon;
+    private javax.swing.JLabel twitter;
+    private javax.swing.JLabel twitterIcon;
     // End of variables declaration//GEN-END:variables
 
     private void addIcon() {
-        
+        ImageIcon emailIcon = new ImageIcon(getClass().getResource("/icon/email.png"));
+        ImageIcon phoneIcon = new ImageIcon(getClass().getResource("/icon/phone.png"));
+        ImageIcon twitterIcon = new ImageIcon(getClass().getResource("/icon/twitter.png"));
+
+        this.emailIcon.setIcon(Function.scaleImg(this.emailIcon, emailIcon));
+        this.phoneIcon.setIcon(Function.scaleImg(this.emailIcon, phoneIcon));
+        this.twitterIcon.setIcon(Function.scaleImg(this.emailIcon, twitterIcon));
+
     }
 }

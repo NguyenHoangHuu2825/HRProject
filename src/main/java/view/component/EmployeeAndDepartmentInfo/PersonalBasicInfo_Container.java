@@ -52,19 +52,24 @@ public class PersonalBasicInfo_Container extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void addComponent() {
-//        String name = "Lâm Quốc Nhân";
-//        String id = "LQN2005";
-//        String job = "Web Developer";
-//        ImageIcon img = new ImageIcon(getClass().getResource("/img/avatar.jpg"));
-//        String dateOfBirth = "20/09/2005";
-//        String place = "Thành phố Hồ Chí Minh";
-//        String gender = "Nam";
+        String name = "Lâm Quốc Nhân";
+        String id = "LQN2005";
+        String job = "Web Developer";
+        ImageIcon img = new ImageIcon(getClass().getResource("/img/avatar.jpg"));
+        String dateOfBirth = "20/09/2005";
+        String place = "Thành phố Hồ Chí Minh";
+        String gender = "Nam";
         String startDate = "15/10/2024";
         String seniority = "10/10/2012";
         String status = "Chinh thuc";
-        for (int i = 1; i <= 4; i++) {
-            this.add(new Status_Component(startDate, seniority, status));
-        }
+        String email = "quocnhan56@gmail.com";
+        String phone = "0968270553";
+        String twitter = "quocnhan56@gmail.com";
+        this.add(new NameAndJob_Component(name, id, job, img));
+        this.add(new DateAndGender_Component(dateOfBirth, place, gender));
+        this.add(new Status_Component(startDate, seniority, status));
+        this.add(new Contact_Component(email, phone, twitter));
+ 
     }
 
 
