@@ -5,8 +5,10 @@
 package view.component.EmployeeAndDepartmentInfo;
 
 import controller.Function.Function;
+import java.awt.Color;
 import java.awt.Dimension;
 import javax.swing.ImageIcon;
+import javax.swing.border.MatteBorder;
 
 /**
  *
@@ -20,6 +22,7 @@ public class NameAndJob_Component extends javax.swing.JPanel {
     public NameAndJob_Component(String name, String id, String job, ImageIcon img) {
         initComponents();
         this.setPreferredSize(new Dimension(210, 100));
+        this.setBorder(new MatteBorder(0, 0, 1, 0, Color.GRAY));
         this.name.setText(name);
         this.id.setText(id);
         this.job.setText(job);

@@ -56,13 +56,13 @@ public class TitleEmployeeBasicInfo_Component extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel2)
-                .addGap(154, 154, 154)
+                .addGap(166, 166, 166)
                 .addComponent(jLabel1)
-                .addGap(105, 105, 105)
-                .addComponent(jLabel3)
-                .addGap(150, 150, 150)
+                .addGap(122, 122, 122)
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(160, 160, 160)
                 .addComponent(jLabel4)
-                .addContainerGap(162, Short.MAX_VALUE))
+                .addContainerGap(115, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

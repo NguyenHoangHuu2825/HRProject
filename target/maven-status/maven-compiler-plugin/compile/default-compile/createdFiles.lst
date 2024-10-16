@@ -1,14 +1,14 @@
 model\main.class
 controller\main.class
-view\component\EmployeeAndDepartmentInfo\testFrame.class
 view\component\EmployeeAndDepartmentInfo\TitleEmployeeBasicInfo_Component.class
 view\component\EmployeeAndDepartmentInfo\Status_Component.class
 view\component\EmployeeAndDepartmentInfo\PersonalBasicInfo_Container.class
 view\component\EmployeeAndDepartmentInfo\EmployeeInfo_Component.class
+view\component\EmployeeAndDepartmentInfo\TestFrame.class
 User.class
+view\component\EmployeeAndDepartmentInfo\TestFrame$1.class
 view\form\Home\Home_Form$1.class
 view\component\Home_Component\Home_Component.class
-view\component\EmployeeAndDepartmentInfo\testFrame$1.class
 view\component\EmployeeAndDepartmentInfo\DateAndGender_Component.class
 view\main.class
 view\component\EmployeeAndDepartmentInfo\EmployeeAndDepartmentInfo.class

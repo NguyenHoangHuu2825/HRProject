@@ -7,6 +7,7 @@ package view.component.EmployeeAndDepartmentInfo;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import javax.swing.ImageIcon;
+import javax.swing.JScrollPane;
 
 /**
  *
@@ -46,10 +47,12 @@ public class PersonalInfo_Component extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
-
     private void setLayout() {
         this.setLayout(new BorderLayout());
         this.add(new TitleEmployeeBasicInfo_Component(), BorderLayout.NORTH);
-        this.add(new PersonalBasicInfo_Container(), BorderLayout.CENTER);
+        JScrollPane scrollPane = new JScrollPane(new PersonalBasicInfo_Container());
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        this.add(scrollPane, BorderLayout.CENTER);
     }
 }

@@ -4,7 +4,9 @@
  */
 package view.component.EmployeeAndDepartmentInfo;
 
+import java.awt.Color;
 import java.awt.Dimension;
+import javax.swing.border.MatteBorder;
 
 /**
  *
@@ -18,6 +20,7 @@ public class Status_Component extends javax.swing.JPanel {
     public Status_Component(String startDate, String seniority, String status) {
         initComponents();
         this.setPreferredSize(new Dimension(210, 100));
+        this.setBorder(new MatteBorder(0, 0, 1, 0, Color.GRAY));
         this.startDate.setText(startDate);
         this.seniority.setText(seniority);
         this.status.setText(status);
@@ -49,6 +52,7 @@ public class Status_Component extends javax.swing.JPanel {
 
         jPanel1.setBackground(new java.awt.Color(102, 255, 204));
 
+        status.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         status.setForeground(new java.awt.Color(255, 255, 255));
         status.setText("Chính thức");
 
