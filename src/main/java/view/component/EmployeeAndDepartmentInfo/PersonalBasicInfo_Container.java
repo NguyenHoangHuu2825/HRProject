@@ -42,7 +42,7 @@ public class PersonalBasicInfo_Container extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 840, Short.MAX_VALUE)
+            .addGap(0, 900, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -64,7 +64,7 @@ public class PersonalBasicInfo_Container extends javax.swing.JPanel {
         String email = "quocnhan56@gmail.com";
         String phone = "0968270553";
         String twitter = "quocnhan56[@gmail.com";
-        for (int i = 1; i <= 6; i++) {
+        for (int i = 1; i <= 12; i++) {
             this.add(new NameAndJob_Component(name, id, job, img));
             this.add(new DateAndGender_Component(dateOfBirth, place, gender));
             this.add(new Status_Component(startDate, seniority, status));

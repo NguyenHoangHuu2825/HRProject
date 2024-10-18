@@ -21,7 +21,7 @@ public class NameAndJob_Component extends javax.swing.JPanel {
      */
     public NameAndJob_Component(String name, String id, String job, ImageIcon img) {
         initComponents();
-        this.setPreferredSize(new Dimension(210, 100));
+        this.setPreferredSize(new Dimension(225, 100));
         this.setBorder(new MatteBorder(0, 0, 1, 0, Color.GRAY));
         this.name.setText(name);
         this.id.setText(id);
@@ -75,7 +75,7 @@ public class NameAndJob_Component extends javax.swing.JPanel {
                     .addComponent(id)
                     .addComponent(job)
                     .addComponent(name))
-                .addContainerGap(102, Short.MAX_VALUE))
+                .addContainerGap(118, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

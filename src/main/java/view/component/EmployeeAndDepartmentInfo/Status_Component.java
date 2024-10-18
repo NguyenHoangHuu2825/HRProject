@@ -19,7 +19,7 @@ public class Status_Component extends javax.swing.JPanel {
      */
     public Status_Component(String startDate, String seniority, String status) {
         initComponents();
-        this.setPreferredSize(new Dimension(210, 100));
+        this.setPreferredSize(new Dimension(225, 100));
         this.setBorder(new MatteBorder(0, 0, 1, 0, Color.GRAY));
         this.startDate.setText(startDate);
         this.seniority.setText(seniority);
@@ -92,7 +92,7 @@ public class Status_Component extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(seniority))
                     .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(60, Short.MAX_VALUE))
+                .addContainerGap(78, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

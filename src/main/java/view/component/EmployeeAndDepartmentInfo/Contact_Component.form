@@ -34,7 +34,7 @@
                   <Component id="phone" min="-2" max="-2" attributes="0"/>
                   <Component id="twitter" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="39" max="32767" attributes="0"/>
+              <EmptySpace pref="53" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>

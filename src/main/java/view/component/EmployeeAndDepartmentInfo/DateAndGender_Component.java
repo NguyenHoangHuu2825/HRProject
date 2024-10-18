@@ -19,7 +19,7 @@ public class DateAndGender_Component extends javax.swing.JPanel {
      */
     public DateAndGender_Component(String dateOfBirth, String place, String gender) {
         initComponents();
-        this.setPreferredSize(new Dimension(210, 100));
+        this.setPreferredSize(new Dimension(225, 100));
         this.setBorder(new MatteBorder(0, 0, 1, 0, Color.GRAY));
         this.dateOfBirth.setText(dateOfBirth);
         this.place.setText(place);
@@ -93,7 +93,7 @@ public class DateAndGender_Component extends javax.swing.JPanel {
                             .addComponent(dateOfBirth, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(place, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(genderPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(29, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

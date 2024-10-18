@@ -22,7 +22,7 @@ public class Contact_Component extends javax.swing.JPanel {
     public Contact_Component(String email, String phone, String twitter) {
         initComponents();
         addIcon();
-        this.setPreferredSize(new Dimension(210, 100));
+        this.setPreferredSize(new Dimension(225, 100));
         this.setBorder(new MatteBorder(0, 0, 1, 0, Color.GRAY));
         this.email.setText(email);
         this.phone.setText(phone);
@@ -86,7 +86,7 @@ public class Contact_Component extends javax.swing.JPanel {
                     .addComponent(email)
                     .addComponent(phone)
                     .addComponent(twitter))
-                .addContainerGap(39, Short.MAX_VALUE))
+                .addContainerGap(53, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
