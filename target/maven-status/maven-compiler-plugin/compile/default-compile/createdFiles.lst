@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 model\main.class
 controller\main.class
 view\component\EmployeeAndDepartmentInfo\TitleEmployeeBasicInfo_Component.class
@@ -21,3 +22,31 @@ view\component\EmployeeAndDepartmentInfo\Contact_Component.class
 view\form\Home\Home_Form.class
 test.class
 view\ui_custom\CircleLabel.class
+=======
+controller\NewClass.class
+view\component\PersonalInfoDetail_Component\BasicInfo_Search_Title_Container.class
+view\component\PersonalInfoDetail_Component\TitleAndAdd_Component.class
+view\form\Login_Form\Login$4.class
+view\component\PersonalInfoDetail_Component\BasicInfo_Filter_Container.class
+view\component\PersonalInfoDetail_Component\Filter_Component.class
+dao\NewClass.class
+view\component\PersonalInfoDetail_Component\TitleAndAdd_Component$1.class
+view\component\PersonalInfoDetail_Component\PersonInfor_Component.class
+view\component\PersonalInfoDetail_Component\Test$1.class
+view\component\ContactÌnormation.class
+view\form\Login_Form\Login$2.class
+view\form\Login_Form\Login.class
+view\component\PersonalInfoDetail_Component\Search_Component$1.class
+view\component\PersonalInfoDetail_Component\Search_Component.class
+view\form\Login_Form\Login$1.class
+view\component\PersonalInfoDetail_Component\BasicInfo_Filter_PersonalInfo_Container.class
+view\component\PersonalInfoDetail_Component\BasicInfo_Container.class
+view\form\Login_Form\Login$3.class
+util\HibernateUtil.class
+view\component\PersonalInfoDetail_Component\BasicInfo_Search_container.class
+model\NewClass.class
+view\component\PersonalInfoDetail_Component\BasicInfo_Component.class
+view\component\PersonalInfoDetail_Component\Test.class
+view\component\PersonalInformation.class
+view\component\PersonalInformation$1.class
+>>>>>>> Stashed changes

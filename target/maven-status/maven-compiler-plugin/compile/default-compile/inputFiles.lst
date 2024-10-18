@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 C:\Users\PC\Desktop\HR Project\HRProject\src\main\java\controller\Function\Function.java
 C:\Users\PC\Desktop\HR Project\HRProject\src\main\java\controller\main.java
 C:\Users\PC\Desktop\HR Project\HRProject\src\main\java\model\main.java
@@ -19,3 +20,23 @@ C:\Users\PC\Desktop\HR Project\HRProject\src\main\java\view\component\Home_Compo
 C:\Users\PC\Desktop\HR Project\HRProject\src\main\java\view\form\Home\Home_Form.java
 C:\Users\PC\Desktop\HR Project\HRProject\src\main\java\view\main.java
 C:\Users\PC\Desktop\HR Project\HRProject\src\main\java\view\ui_custom\CircleLabel.java
+=======
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\model\NewClass.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\BasicInfo_Component.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\BasicInfo_Search_container.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\BasicInfo_Filter_PersonalInfo_Container.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\Filter_Component.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInformation.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\BasicInfo_Search_Title_Container.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\util\HibernateUtil.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\form\Login_Form\Login.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\BasicInfo_Container.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\PersonInfor_Component.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\TitleAndAdd_Component.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\Test.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\controller\NewClass.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\dao\NewClass.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\Search_Component.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\PersonalInfoDetail_Component\BasicInfo_Filter_Container.java
+C:\Users\user\Documents\NetBeansProjects\HRProject\src\main\java\view\component\ContactÌnormation.java
+>>>>>>> Stashed changes
